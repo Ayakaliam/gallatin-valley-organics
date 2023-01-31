@@ -43,7 +43,7 @@ h1 {
     color: rgb(17, 17, 17);
     text-align: left;
     font-size: 2.2rem;
-    font-family: forma-djr-banner, sans-serif;
+    font-family: Arial, Helvetica, sans-serif, sans-serif; 
     font-weight: 700;
     font-style: normal;
 
@@ -302,25 +302,33 @@ nav {
     background-color: #fff6da;
     min-height:  100vh;
     display: grid;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
     
 }
 
 .verification-hero-image {
     
-    background-image: url(images/verification-image.jpg);
+   
     background-size: cover;
     background-position: top center;
     
 }
 
+.verification-image {
+    object-fit: cover;
+    object-position: 25% 75%;
+    width: 100%;
+    height: 100%;
+}
+
 .verification-section {
     
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr fr 1fr;
+    
+   
     justify-items: center;
     align-content: center;
+   
    
     
 
@@ -331,13 +339,19 @@ nav {
     gap: 2rem;
     justify-items: center;
     align-content: center;
+   
+    
 
 }
 
 .buttons-wrapper {
     display: grid;
-    gap: 1rem;
-    padding: 2rem 0 0 0;
+    grid-template-columns: 1fr;
+    gap: 1.3rem;
+    padding: 3rem 0 0 0;
+    justify-items: center;
+    align-content: center;
+ 
 }
 
 .verfication-button {
@@ -345,9 +359,10 @@ nav {
     background-color: #fff6da;
     display: grid;
     max-height: 5rem;
+    width: 18rem;
     justify-items: center;
     align-content: center;
-    padding: .25rem 2.5rem;
+    
 
 }
 
@@ -372,6 +387,24 @@ h2.verification-button-text {
     
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -479,32 +512,78 @@ h2.verification-button-text {
         
     }
 
+    
+    .verification-image {
+        object-fit: cover;
+        object-position: 40% 60%;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .verification-section {
+        
+        display: grid;
+        grid-template-columns: 1fr;
+       
+        justify-items: center;
+        align-content: center;
+       
+       
+        
+    
+    }
+    
+    .verification-intro {
+        display:grid;
+        gap: 2rem;
+        justify-items: center;
+        align-content: center;
+        
+    
+    }
+    
+    .buttons-wrapper {
+        display: grid;
+        gap: 2rem;
+        padding: 3rem 0;
+    }
+    
+    .verfication-button {
+        border: 2px solid #2C1C12;
+        background-color: #fff6da;
+        display: grid;
+        max-height: 5rem;
+        justify-items: center;
+        align-content: center;
+        padding: .25rem 2.5rem;
+    
+    }
+    
+    h2.verification-button-text {
+        color: #2C1C12;
+    }
+    
     .gvo-logo {
         max-width: 20rem;
         padding-top: 1rem;
     
     }
-
-    .verification-section {
     
+    .verification-footer {
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr fr 1fr;
+        grid-template-rows: 1fr;
+        padding: 1rem 2rem;
         justify-items: center;
         align-content: center;
-        gap: 1rem;
-       
+        max-width: 30rem;
+    
         
     
     }
-
-    .verification-intro {
-        display:grid;
-        gap: 3rem;
-        justify-items: center;
-        align-content: center;
     
-    }
 
+
+
+   
 
 }
