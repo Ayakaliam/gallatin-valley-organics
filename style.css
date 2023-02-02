@@ -43,8 +43,8 @@ h1 {
     color: rgb(17, 17, 17);
     text-align: left;
     font-size: 2.2rem;
-    font-family: Arial, Helvetica, sans-serif, sans-serif; 
-    font-weight: 700;
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 900;
     font-style: normal;
 
    
@@ -54,8 +54,8 @@ h2 {
     color: rgb(255, 255, 255);
     text-align: left;
     font-size: 1.25rem;
-    font-family: Arial, Helvetica, sans-serif, sans-serif; 
-    font-weight: 400;
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 900;
     font-style: normal;
   
     text-transform: uppercase;
@@ -101,8 +101,9 @@ a {
 
 p {
     color: rgb(24, 24, 24);
-    font-family: Arial, Helvetica, sans-serif, sans-serif; 
+    font-family: "azo-sans-web", sans-serif;
     font-weight: 400;
+    font-style: normal;
     font-size: 1rem;
     text-align: left;
     padding-top: 1rem;
@@ -397,7 +398,7 @@ h1.verification-button-text {
 .home-page-container {
     background-color: #fff6da;
     background-image: url(images/home-image.jpg);
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
     
 }
@@ -431,8 +432,12 @@ h1.verification-button-text {
 
 
 h1.hero-text {
-    font-size: 4rem;
+    font-family: "arya-double", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
     color: #fff6da;
+    
     
 
 }
@@ -445,7 +450,7 @@ h1.hero-welcome {
 
 
 h2.hero-subtext {
-    color: #2C1C12;
+    color: #fff6da;
     font-size: 1.25rem;
     padding: 0;
     
@@ -459,6 +464,87 @@ h2.hero-subtext {
 }
 
 
+.strain-carousel {
+    
+    height: 50vh;
+    background-color: #fff6da;
+    
+}
+
+.strain-cell-sativa {
+    background-image: url(images/carousel-one.jpg);
+    background-position: center top;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    max-width: 70%;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    
+    /*display: grid;
+    
+    padding: 10rem 0;
+    background-position: center top;
+    background-size: cover;
+    justify-items: center;
+    align-content: center;
+    min-height: 50vh;
+    min-width: 50vw;*/
+    
+}
+
+.strain-cell-hybrid {
+    background-image: url(images/carousel-two.jpg);
+    background-position: center top;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    max-width: 70%;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    /*display: grid;
+    background-image: url(images/carousel-two.jpg);
+    padding: 10rem 0;
+    background-position: center top;
+    background-size: cover;
+    justify-items: center;
+    align-content: center;
+    min-height: 50vh;*/
+}
+
+.strain-cell-indica {
+    background-image: url(images/carousel-three.jpg);
+    background-position: center top;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    max-width: 70%;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    /*display: grid;
+    background-image: url(images/carousel-three.jpg);
+    padding: 10rem 0;
+    background-position: center top;
+    background-size: cover;
+    justify-items: center;
+    align-content: center;
+    min-height: 50vh;*/
+}
+
+    .selection-type {
+        color: white;
+
+    }
+
+
+    .selection-text {
+        color: white;
+        padding: 0 0;
+
+    }
 
 
 
@@ -669,7 +755,7 @@ h2.hero-subtext {
     
     
     h2.hero-subtext {
-        color: #2C1C12;
+        color: #fff6da;
         font-size: 2.25rem;
         padding: 0; 
     }
