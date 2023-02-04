@@ -436,7 +436,8 @@ h1.hero-text {
     font-weight: 400;
     font-style: normal;
     font-size: 3rem;
-    color: #fff6da;
+    color: white;
+    text-shadow: 1px 1px 20px #be4e92;
     
     
 
@@ -444,13 +445,13 @@ h1.hero-text {
 
 h1.hero-welcome {
     
-    color: #fff6da;
+    color: white;
 
 }
 
 
 h2.hero-subtext {
-    color: #fff6da;
+    color: white;
     font-size: 1.25rem;
     padding: 0;
     
@@ -469,6 +470,13 @@ h2.hero-subtext {
     height: 50vh;
     background-color: #fff6da;
     
+}
+
+
+/* flickity on by default */
+.strain-carousel:after {
+    content: 'flickity';
+    display: none;
 }
 
 .strain-cell-sativa {
@@ -551,6 +559,31 @@ h2.hero-subtext {
     }
 
 
+    .edibles-section {
+        background-image: url(images/Edibles-image-two.jpg);
+        background-size: cover;
+        background-position: center;
+        display: grid;
+        justify-items: center;
+        
+    }
+
+    .edibles-content-wrapper {
+        padding: 5rem 2rem;
+        display: grid;
+      
+        
+    }
+
+    .browse-edible-text {  
+        font-size: 1.1rem;    
+        color: white;
+    }  
+
+    .edible-header {
+        color: white;
+        font-size: 3rem;
+    }
 
 
 
@@ -746,26 +779,79 @@ h2.hero-subtext {
 
     h1.hero-text {
         font-size: 8em;
-        color: #fff6da;
+        color: white;
         
     
     }
     
     h1.hero-welcome {
         font-size: 4.25em;
-        color: #fff6da;
+        color: white;
     
     }
     
     
     h2.hero-subtext {
-        color: #fff6da;
+        color: white;
         font-size: 2.25rem;
         padding: 0; 
     }
 
+    .strain-carousel:after {
+        content: '';
+        
+    }
+
+    .strain-carousel {
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       grid-template-rows: 1fr;
+       justify-items: center;
+       
+    
+      
+       
+    }
 
 
-   
+    .strain-cell-sativa {
+        max-width: 100%;
+        align-content: center;
+        justify-items: center;
+
+    }
+
+    .strain-cell-hybrid {
+        max-width: 100%;
+        align-content: center;
+        justify-items: center;
+
+    }
+
+    .strain-cell-indica {
+        max-width: 100%;
+        align-content: center;
+        justify-items: center;
+
+    }
+
+    .edibles-content-wrapper {
+        padding: 10rem 2rem;
+        display: grid;
+      
+        
+    }
+
+    .browse-edible-text {  
+        font-size: 3rem;    
+        color: white;
+    }  
+
+    .edible-header {
+        color: white;
+        font-size: 5rem;
+    }
+
+
 
 }
