@@ -637,11 +637,11 @@ h2.hero-subtext {
     
         margin-top: 2rem;
         color: white;
-    text-align: left;
-    font-size: 2.2rem;
-    font-family: "azo-sans-web", sans-serif;
-    font-weight: 900;
-    font-style: normal;
+        text-align: left;
+        font-size: 2.2rem;
+        font-family: "azo-sans-web", sans-serif;
+        font-weight: 900;
+        font-style: normal;
     
     }
 
@@ -650,6 +650,15 @@ h2.hero-subtext {
     .action-button:hover {
         background-color: white;
         color: #492b19;
+    }
+
+
+    .medical-card-section {
+        background-image: url(images/card-section.jpg);
+        background-size: cover;
+        background-position: right;
+        display: grid;
+        justify-items: center;
     }
 
    
@@ -961,7 +970,7 @@ h2.hero-subtext {
 
 
     .action-button {
-        border: 2px solid white;
+        border: 3px solid white;
         background-color: transparent;
         display: grid;
         height: 4rem;
