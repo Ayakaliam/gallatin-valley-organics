@@ -426,7 +426,10 @@ h1.verification-button-text {
 }
 
 .homepage-logo {
-    max-width: 7rem;
+    max-width: 9rem;
+    
+    
+   
 
 
 }
@@ -747,7 +750,18 @@ h2.hero-subtext {
         justify-items: center;
         align-content: start;
     }
-   
+
+    .home-nav-section {
+        background-image: url(images/silver-tip-jar.jpg);
+        background-size: cover;
+        background-position: center;
+        display: grid;
+        justify-items: center;
+        align-content: start;
+    }
+
+
+    
 
     .grid.order {
         display: grid;
@@ -1092,10 +1106,6 @@ h2.hero-subtext {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         max-width: 100vw; 
         padding: 4rem 2rem 2rem 2rem;
-       
-        
-      
-        
     }
 
 
@@ -1118,5 +1128,13 @@ h2.hero-subtext {
         padding: 0rem 0 2rem 0;
        
     }
+
+    .info-wrapper.order {
+        padding: 2rem 0rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 50rem;
+        justify-items: start;
+      }
 
 }
