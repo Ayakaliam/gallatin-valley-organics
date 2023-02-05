@@ -462,7 +462,7 @@ h2.hero-subtext {
     display: grid;
     grid-template-rows: 1fr;
     
-    padding-top: 1.5rem;
+    padding-top: 2rem;
 }
 
 
@@ -634,6 +634,14 @@ h2.hero-subtext {
         justify-items: start;
       }
 
+      .info-wrapper.order {
+        padding: 2rem 0rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 30rem;
+        justify-items: start;
+      }
+
       .info-text {
           color: white;
           font-size: 1.2rem;
@@ -725,7 +733,33 @@ h2.hero-subtext {
         padding: 2rem 0 2rem 0;
        
     }
+
+
+    /* Order Page */
+
+    
+
+    .top-nav-section {
+        background-image: url(images/order-image-three.jpg);
+        background-size: cover;
+        background-position: right;
+        display: grid;
+        justify-items: center;
+        align-content: start;
+    }
    
+
+    .grid.order {
+        display: grid;
+        justify-items: center;
+        align-content: center;
+        width: 100%;
+        margin-bottom: 2rem;
+        
+        
+       
+    }
+
 
     
    
