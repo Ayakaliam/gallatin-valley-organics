@@ -149,7 +149,7 @@ li {
     right: 0;
     bottom: 0;
  
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -177,7 +177,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
     background-color: #FFF7E2;
-    padding: .5rem;
+    padding: .75rem .75rem;
     border-radius: 100vh;
     border-style: solid;
     border-color: #27100B;
@@ -736,7 +736,7 @@ h2.hero-subtext {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr; 
         background-color: #FFF7E2;
-        padding: 1rem 3rem;
+        padding: 1rem 5rem;
         border-radius: 100vh;
         border-style: solid;
         border-color: #27100B;
