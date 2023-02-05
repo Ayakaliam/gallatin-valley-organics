@@ -612,6 +612,7 @@ h2.hero-subtext {
 
       .info-text {
           color: white;
+          font-size: 1.2rem;
       }
 
 
@@ -620,9 +621,10 @@ h2.hero-subtext {
         background-color: transparent;
         display: grid;
         height: 4rem;
+        width: 15rem;
         justify-items: center;
         align-content: center;
-        padding: 2rem 3rem;
+        
         margin-top: 1rem;
     
     }
@@ -938,6 +940,7 @@ h2.hero-subtext {
         background-color: transparent;
         display: grid;
         height: 4rem;
+        width: ;
         justify-items: center;
         align-content: center;
         padding: 2rem 3rem;
