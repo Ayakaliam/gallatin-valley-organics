@@ -397,13 +397,14 @@ h1.verification-button-text {
 
 .home-page-container {
     background-color: #fff6da;
-    background-image: url(images/home-image.jpg);
-    background-position: bottom;
-    background-size: cover;
+   
     
 }
 
 .hero-section {
+    background-image: url(images/home-image.jpg);
+    background-position: center;
+    background-size: cover;
     min-height: 75vh;
     display: grid;
     grid-template-columns: 1fr;
@@ -569,23 +570,69 @@ h2.hero-subtext {
     }
 
     .edibles-content-wrapper {
-        padding: 5rem 2rem;
+        padding: 5rem 0;
         display: grid;
+        grid-template-columns: 1fr;
+        max-width: 20rem;
+        justify-items: start;
       
         
     }
 
-    .browse-edible-text {  
+   .subheader-text {  
         font-size: 1.1rem;    
         color: white;
+        display: grid;
+
     }  
 
-    .edible-header {
+    h1.header-text {
         color: white;
-        font-size: 3rem;
+        font-size: 2rem;
+        text-transform: uppercase;
+        display: grid;
     }
 
+    .pick-up-section {
+        background-image: url(images/gallatin-organic-lounge-dark.jpg);
+        background-size: cover;
+        background-position: center;
+        display: grid;
+        justify-items: center;
+        
+    }
+    
+    .info-wrapper {
+        padding: 8rem 0rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 20rem;
+        justify-items: start;
+      }
 
+      .info-text {
+          color: white;
+      }
+
+
+    .action-button {
+        border: 2px solid white;
+        background-color: transparent;
+        display: grid;
+        height: 4rem;
+        justify-items: center;
+        align-content: center;
+        padding: 2rem 3rem;
+        margin-top: 1rem;
+    
+    }
+
+    .action-button-text {
+        font-size: 1.75rem;
+        color: white;
+  
+
+    }
 
 
 
@@ -835,21 +882,67 @@ h2.hero-subtext {
 
     }
 
-    .edibles-content-wrapper {
-        padding: 10rem 2rem;
+
+    .edibles-section {
+        background-image: url(images/Edibles-image-two.jpg);
+        background-size: cover;
+        background-position: center;
         display: grid;
+        justify-items: center;
+        
+    }
+    
+    .edibles-content-wrapper {
+        padding: 10rem 5rem;
+        display: grid;
+        max-width: 40rem;
+        grid-template-columns: 1fr;
       
         
     }
 
-    .browse-edible-text {  
+
+    .pick-up-section {
+        background-image: url(images/gallatin-organic-lounge-dark.jpg);
+        background-size: cover;
+        background-position: center;
+        display: grid;
+        justify-items: center;
+        
+    }
+    
+    .info-wrapper {
+        padding: 20rem 5rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 40rem;
+        justify-items: start;
+      
+        
+    }
+
+    .subheader-text {  
         font-size: 3rem;    
         color: white;
+        text-align: start;
     }  
 
-    .edible-header {
+    h1.header-text {
         color: white;
         font-size: 5rem;
+    }
+
+
+    .action-button {
+        bborder: 2px solid white;
+        background-color: transparent;
+        display: grid;
+        height: 4rem;
+        justify-items: center;
+        align-content: center;
+        padding: 2rem 3rem;
+        margin-top: 2rem;
+    
     }
 
 
