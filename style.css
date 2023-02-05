@@ -602,6 +602,13 @@ h2.hero-subtext {
         display: grid;
     }
 
+    h1.header-text.contact {
+        color:#492b19;
+        font-size: 2rem;
+        text-transform: uppercase;
+        display: grid;
+    }
+
     .pick-up-section {
         background-image: url(images/gallatin-organic-lounge-dark.jpg);
         background-size: cover;
@@ -619,10 +626,24 @@ h2.hero-subtext {
         justify-items: start;
       }
 
+      .info-wrapper.footer {
+        padding: 2rem 0rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 20rem;
+        justify-items: start;
+      }
+
       .info-text {
           color: white;
           font-size: 1.2rem;
       }
+
+      p.info-text.contact {
+        color: #492b19;
+        font-size: .95rem;
+        padding-top: 0;
+    }
 
 
     .action-button {
@@ -660,6 +681,55 @@ h2.hero-subtext {
         display: grid;
         justify-items: center;
     }
+
+   
+    .footer-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: #FFF7E2;
+        color: #492b19;
+        justify-items: center;
+        align-content: start;
+        padding-bottom: 3rem;
+        
+    }
+       
+    .footer-grid {
+        display: grid;
+        justify-items: start;
+        line-height: .1rem;
+        align-content: start;
+        gap: 1.5rem;
+        
+       
+    }
+
+    .footer-grid.contact {
+        padding-bottom: 3rem;
+    }
+
+    .footer-grid.insta {
+        display: grid;
+        justify-items: center;
+        align-content: center;
+        width: 100%;
+        padding: 2rem 0;
+       
+    }
+
+    .instagram-logo {
+        width: 3rem;
+    }
+
+    .header-text.contact {
+        padding: 2rem 0 2rem 0;
+       
+    }
+   
+
+    
+   
+    
 
    
 
@@ -982,10 +1052,37 @@ h2.hero-subtext {
     
     }
 
-   
+    .info-wrapper.footer {
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        max-width: 100vw; 
+        padding: 4rem 2rem 2rem 2rem;
+       
+        
+      
+        
+    }
 
 
+    .footer-grid {
+        display: grid;
+        justify-items: start;
+        line-height: .1rem;
+        align-content: start;
+        gap: 1.5rem;
+        padding: 2rem 0 2rem 0;
+       
+    }
 
+    .footer-section {
+        padding-bottom: 5rem;
+        
+    }
 
+    .header-text.contact {
+        padding: 0rem 0 2rem 0;
+       
+    }
 
 }
