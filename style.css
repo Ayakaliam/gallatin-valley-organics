@@ -468,7 +468,7 @@ h2.hero-subtext {
 
 .strain-carousel {
     
-    height: 50vh;
+  
     background-color: #fff6da;
     
 }
@@ -490,6 +490,7 @@ h2.hero-subtext {
     display: grid;
     align-content: center;
     justify-items: center;
+    padding: 15rem 0rem;
     
     /*display: grid;
     
@@ -513,6 +514,7 @@ h2.hero-subtext {
     display: grid;
     align-content: center;
     justify-items: center;
+    padding: 15rem 0rem;
     /*display: grid;
     background-image: url(images/carousel-two.jpg);
     padding: 10rem 0;
@@ -533,6 +535,7 @@ h2.hero-subtext {
     display: grid;
     align-content: center;
     justify-items: center;
+    padding: 15rem 0rem;
     /*display: grid;
     background-image: url(images/carousel-three.jpg);
     padding: 10rem 0;
@@ -580,11 +583,17 @@ h2.hero-subtext {
     }
 
    .subheader-text {  
+    background-color: #492b19;
         font-size: 1.1rem;    
         color: white;
         display: grid;
-
+        padding: .35rem;
+        margin-bottom: .25rem;
     }  
+
+   
+
+
 
     h1.header-text {
         color: white;
@@ -619,22 +628,31 @@ h2.hero-subtext {
     .action-button {
         border: 2px solid white;
         background-color: transparent;
+        color: white;
         display: grid;
         height: 4rem;
         width: 15rem;
         justify-items: center;
         align-content: center;
-        
-        margin-top: 1rem;
+    
+        margin-top: 2rem;
+        color: white;
+    text-align: left;
+    font-size: 2.2rem;
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 900;
+    font-style: normal;
     
     }
 
-    .action-button-text {
-        font-size: 1.75rem;
-        color: white;
-  
+   
 
+    .action-button:hover {
+        background-color: white;
+        color: #492b19;
     }
+
+   
 
 
 
@@ -897,7 +915,7 @@ h2.hero-subtext {
     .edibles-content-wrapper {
         padding: 10rem 5rem;
         display: grid;
-        max-width: 40rem;
+        max-width: 45rem;
         grid-template-columns: 1fr;
       
         
@@ -917,16 +935,23 @@ h2.hero-subtext {
         padding: 20rem 5rem;
         display: grid;
         grid-template-columns: 1fr;
-        max-width: 40rem;
+        max-width: 45rem;
         justify-items: start;
       
         
+    }
+
+
+    .info-text {
+        color: white;
+        font-size: 1.7rem;
     }
 
     .subheader-text {  
         font-size: 3rem;    
         color: white;
         text-align: start;
+        padding-top: 0;
     }  
 
     h1.header-text {
@@ -936,17 +961,21 @@ h2.hero-subtext {
 
 
     .action-button {
-        bborder: 2px solid white;
+        border: 2px solid white;
         background-color: transparent;
         display: grid;
         height: 4rem;
-        width: ;
+       
         justify-items: center;
         align-content: center;
         padding: 2rem 3rem;
         margin-top: 2rem;
     
     }
+
+   
+
+
 
 
 
