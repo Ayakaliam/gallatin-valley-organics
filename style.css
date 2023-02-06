@@ -612,6 +612,14 @@ h2.hero-subtext {
         display: grid;
     }
 
+
+    h1.header-text.flower {
+        color:#492b19;
+        font-size: 2rem;
+        text-transform: uppercase;
+        display: grid;
+    }
+
     .pick-up-section {
         background-image: url(images/gallatin-organic-lounge-dark.jpg);
         background-size: cover;
@@ -639,6 +647,14 @@ h2.hero-subtext {
 
       .info-wrapper.order {
         padding: 2rem 0rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 30rem;
+        justify-items: start;
+      }
+
+      .info-wrapper.order.menu {
+       
         display: grid;
         grid-template-columns: 1fr;
         max-width: 30rem;
@@ -737,10 +753,26 @@ h2.hero-subtext {
        
     }
 
+    .header-text.contact.flowertype {
+        padding: 0rem 0 2rem 0;
+        font-size: 3rem;
+        
+        
+       
+    }
+
+
+
+
+
 
     /* Order Page */
 
     
+
+
+
+
 
     .top-nav-section {
         background-image: url(images/order-image-three.jpg);
@@ -770,9 +802,101 @@ h2.hero-subtext {
         width: 100%;
         margin-bottom: 2rem;
         
-        
-       
     }
+
+
+
+
+
+
+
+
+    /* Menu Page */
+
+
+
+    .menu-nav-section {
+        background-color: #FFF7E2;
+        background-size: cover;
+        background-position: center;
+        display: grid;
+        justify-items: center;
+        align-content: start;
+    }
+
+    .grid.menu {
+        display: grid;
+        justify-items: center;
+        align-content: center;
+        width: 100%;
+        padding-top: 2rem;
+        
+    }
+
+    .menu-content-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: #FFF7E2;
+        justify-items: center;
+     
+    }
+
+    .menu-content-wrapper {
+       display: grid;
+       width: 75%;
+    
+    }
+
+    .flower-section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);;
+        grid-template-rows: auto;
+        background-color: #FFF7E2;
+        height: 20rem;
+        gap: 1px;
+
+    }
+
+    .grid-flower {
+        background-image: url(images/strawberries-and-cream.jpg);
+        background-size: cover;
+        background-position: center;
+        grid-template-columns: 3fr 1fr;
+        display: grid;
+        align-content: end;
+        
+    }
+
+    .flower-text {
+        font-size: .85rem;
+        font-weight: 500;
+        display: grid;
+        padding: .25rem 1rem;
+        margin-bottom: .5rem;
+        color: #492b19;
+        background-color: #e1adbc;
+        
+    }
+
+    .flower-type-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: #FFF7E2;
+        justify-items: center;
+
+    }
+
+
+    .flower-type-wrapper{
+        background-color: #FFF7E2;
+        display: grid;
+       width: 75%;
+        
+
+    }
+
+
+  
 
 
     
@@ -1136,5 +1260,38 @@ h2.hero-subtext {
         max-width: 50rem;
         justify-items: start;
       }
+
+  /* Menu Page */
+
+  .flower-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    background-color: #FFF7E2;
+    height: 60rem;
+
+}
+
+.grid-flower {
+    background-image: url(images/strawberries-and-cream.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-template-columns: 4fr 1fr;
+    display: grid;
+    align-content: end;
+    
+}
+
+.flower-text {
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: grid;
+    padding: 1rem 1rem;
+    margin-bottom: .5rem;
+    color: #492b19;
+    background-color: #e1adbc;
+  
+}
+
 
 }
