@@ -854,6 +854,7 @@ h2.hero-subtext {
         background-color: #FFF7E2;
         height: 20rem;
         gap: 1px;
+        padding-bottom: 2rem;
 
     }
 
@@ -868,13 +869,14 @@ h2.hero-subtext {
     }
 
     .flower-text {
-        font-size: .85rem;
+        font-size: .75rem;
         font-weight: 500;
         display: grid;
         padding: .25rem 1rem;
         margin-bottom: .5rem;
         color: #492b19;
         background-color: #e1adbc;
+        text-transform: uppercase;
         
     }
 
