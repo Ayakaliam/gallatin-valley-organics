@@ -612,7 +612,23 @@ h2.hero-subtext {
         display: grid;
     }
 
-   
+    .header-text.contact {
+        padding: 2rem 0 2rem 0;
+       
+    }
+
+    .header-text.contact.menu {
+        padding: 2rem 0 2rem 0;
+       
+    }
+
+    .header-text.contact.flowertype {
+        padding: 0rem 0 2rem 0;
+        font-size: 3rem;
+        
+        
+       
+    }
 
 
     h1.header-text.flower {
@@ -750,18 +766,7 @@ h2.hero-subtext {
         width: 3rem;
     }
 
-    .header-text.contact {
-        padding: 2rem 0 2rem 0;
-       
-    }
-
-    .header-text.contact.flowertype {
-        padding: 0rem 0 2rem 0;
-        font-size: 3rem;
-        
-        
-       
-    }
+   
 
 
 
@@ -854,7 +859,7 @@ h2.hero-subtext {
         grid-template-columns: repeat(2, 1fr);;
         grid-template-rows: auto;
         background-color: #FFF7E2;
-        height: 20rem;
+       
         gap: 1px;
         padding-bottom: 2rem;
 
@@ -891,6 +896,18 @@ h2.hero-subtext {
         bottom: 10px;
         color: #492b19;
         background-color: #e1adbc;
+        text-transform: uppercase;
+        padding: .5rem;
+        
+    }
+
+    .flower-text.hybrid {
+        font-size: .75rem;
+        font-weight: 500;
+        position: absolute;
+        bottom: 10px;
+        color: #492b19;
+        background-color: #ec9e24;
         text-transform: uppercase;
         padding: .5rem;
         
@@ -1273,6 +1290,11 @@ h2.hero-subtext {
        
     }
 
+    .header-text.contact {
+        padding: 2rem 0 2rem 0;
+       
+    }
+
     .info-wrapper.order {
         padding: 2rem 0rem;
         display: grid;
@@ -1288,7 +1310,7 @@ h2.hero-subtext {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     background-color: #FFF7E2;
-    height: 60rem;
+    
 
 }
 
@@ -1319,5 +1341,16 @@ h2.hero-subtext {
     
 }
 
+.flower-text.hybrid {
+    font-size: 1.25rem;
+    font-weight: 500;
+    position: absolute;
+    bottom: 10px;
+    color: #492b19;
+    background-color: #ec9e24;
+    text-transform: uppercase;
+    padding: 1rem;
+    
+}
 
 }
