@@ -722,6 +722,27 @@ h2.hero-subtext {
     
     }
 
+
+    .action-button.dark {
+        border: 2px solid#492b19;
+        background-color: transparent;
+        
+        display: grid;
+        height: 4rem;
+        width: 15rem;
+        justify-items: center;
+        align-content: center;
+    
+        margin-top: 2rem;
+        color: #492b19;
+        text-align: left;
+        font-size: 1.25rem;
+        font-family: "azo-sans-web", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+    
+    }
+
    
 
     .action-button:hover {
@@ -729,6 +750,11 @@ h2.hero-subtext {
         color: #492b19;
     }
 
+    .action-button.dark:hover {
+        background-color: white;
+        color: #492b19;
+
+    }
 
     .medical-card-section {
         background-image: url(images/card-section.jpg);
@@ -861,7 +887,8 @@ h2.hero-subtext {
 
     .menu-content-wrapper {
        display: grid;
-       width: 75%;
+       width: 75vw;
+       
     
     }
 
@@ -1387,5 +1414,34 @@ h2.hero-subtext {
     padding: 1rem;
     
 }
+
+.action-button.dark {
+   
+    border: 2px solid#492b19;
+    background-color: transparent;
+    
+    
+    height: 4rem;
+    width: 20rem;
+    justify-items: center;
+    align-content: center;
+
+    margin-top: 2rem;
+    color: #492b19;
+    text-align: left;
+    font-size: 1.25rem;
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    
+
+}
+
+
+
+
+
+
+
 
 }
