@@ -573,6 +573,9 @@ h2.hero-subtext {
         padding: 0 0;
         font-size: 1.1rem;
         text-align: center;
+        border-bottom: .25rem white solid;
+      
+        
 
     }
 
@@ -732,8 +735,8 @@ h2.hero-subtext {
         width: 15rem;
         justify-items: center;
         align-content: center;
-    
-        margin-top: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
         color: #492b19;
         text-align: left;
         font-size: 1.25rem;
@@ -787,6 +790,7 @@ h2.hero-subtext {
     }
 
     .footer-grid.contact {
+        padding-top: 0;
         padding-bottom: 3rem;
     }
 
@@ -882,6 +886,13 @@ h2.hero-subtext {
         grid-template-columns: 1fr;
         background-color: #FFF7E2;
         justify-items: center;
+        
+     
+    }
+
+    .menu-content-section.border {
+        border-bottom: 2px #492b19 dotted;
+        padding-bottom: 3rem;
      
     }
 
