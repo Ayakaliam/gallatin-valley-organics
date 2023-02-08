@@ -624,6 +624,12 @@ h2.hero-subtext {
         font-size: 2rem;
         text-transform: uppercase;
         display: grid;
+        
+    }
+
+    h1.header-text.contact.thin {
+        font-weight: 500;
+        
     }
 
     .header-text.contact {
@@ -729,17 +735,17 @@ h2.hero-subtext {
     .action-button.dark {
         border: 2px solid#492b19;
         background-color: transparent;
-        
+        margin: 1.5rem 0rem;
         display: grid;
         height: 4rem;
-        width: 15rem;
+        width: 18rem;
         justify-items: center;
         align-content: center;
-        margin-top: 1rem;
-        margin-bottom: 3rem;
+        
+        
         color: #492b19;
         text-align: left;
-        font-size: 1.25rem;
+        font-size: 1.15rem;
         font-family: "azo-sans-web", sans-serif;
         font-weight: 900;
         font-style: normal;
@@ -754,10 +760,12 @@ h2.hero-subtext {
     }
 
     .action-button.dark:hover {
-        background-color: white;
-        color: #492b19;
+        background-color: #492b19;
+        color: #FFF7E2;
 
     }
+
+  
 
     .medical-card-section {
         background-image: url(images/card-section.jpg);
@@ -903,6 +911,16 @@ h2.hero-subtext {
     
     }
 
+    .menu-content-wrapper.narrow {
+        /*border-bottom: .15rem solid #492b19;*/
+        padding-bottom: 2rem;
+        
+        
+     
+     }
+
+   
+
     .flower-section {
         display: grid;
         grid-template-columns: repeat(2, 1fr);;
@@ -1014,6 +1032,25 @@ h2.hero-subtext {
     
 
    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1448,6 +1485,33 @@ h2.hero-subtext {
 
 }
 
+.menu-content-wrapper {
+    display: grid;
+    width: 80vw;
+    max-width: 1000px;
+    
+ 
+ }
+
+ .menu-content-wrapper.narrow {
+    /*border-bottom: .15rem solid #492b19;*/
+    padding-bottom: 2rem;
+    
+    
+ 
+ }
+
+ li {
+     font-size: 1rem;
+     font-family: "azo-sans-web", sans-serif;
+     font-weight: 500;
+     font-style: normal;
+     
+ }
+
+
+
+ 
 
 
 
