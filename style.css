@@ -1485,6 +1485,10 @@ h2.hero-subtext {
 
 }
 
+.menu-content-section {
+    padding-bottom: 4rem;
+}
+
 .menu-content-wrapper {
     display: grid;
     width: 80vw;
