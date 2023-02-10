@@ -239,25 +239,27 @@ nav {
     
 }
 
-.mandorin-image {
-    background-image: url(images/strawberries-and-cream.jpg);
-    background-position: center top;
-    background-size: cover;
-    background-repeat: no-repeat;
+
+.image-cover {
+    object-fit: cover;
+        object-position: 50% 10%;
+        width: 100%;
+        height: 100%;
+}
+
+.strain-top-image {
+    
     height: 75vh;
     background-color: #dea4b7;
 }
 
-.mandorin-image-two {
-    background-image: url(images/mandorin-zkittlez-jar.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.strain-bottom-image {
+   
     height: 75vh;
     background-color: #dea4b7;
 }
 
-.silvertip-image {
+/*.silvertip-image {
     background-image: url(images/silver-tip.jpg);
     background-position: center top;
     background-size: cover;
@@ -291,7 +293,7 @@ nav {
     background-repeat: no-repeat;
     height: 75vh;
     background-color: #efc925;
-}
+}*/
 
 
 .flower-info {
@@ -511,6 +513,8 @@ h2.hero-subtext {
     content: 'flickity';
     display: none;
 }
+
+
 
 .strain-cell-sativa {
     background-image: url(images/carousel-one.jpg);
