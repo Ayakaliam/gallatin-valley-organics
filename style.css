@@ -623,11 +623,24 @@ h2.hero-subtext {
         font-size: 1.1rem;    
         color: white;
         display: grid;
-        padding: .35rem;
+        padding: .35rem 1rem .35rem 1rem;
         margin-bottom: .25rem;
+        border-radius:20px 0 20px 0;
+        
     }  
 
-   
+
+    .subheader-text.special {  
+        background-color: #e09db3;
+            font-size: 1.1rem;    
+            color: white;
+            display: grid;
+            padding: .35rem 1rem .35rem 1rem;
+            margin-bottom: .25rem;
+            border-radius:20px 0 20px 0;
+
+        }  
+  
 
 
 
@@ -685,6 +698,33 @@ h2.hero-subtext {
         justify-items: center;
         
     }
+
+    .specials-section {
+        background-image: url(images/specials-background.jpg);
+        background-size: cover;
+        background-position: center;
+        display: grid;
+        justify-items: center;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        
+    }
+
+    .specials-wrapper.top {
+        padding: 2rem 0rem 0rem 0rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 20rem;
+        justify-items: start;
+      }
+
+    .specials-wrapper {
+        padding: 2rem 0rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 20rem;
+        justify-items: start;
+      }
     
     .info-wrapper {
         padding: 8rem 0rem;
@@ -693,6 +733,8 @@ h2.hero-subtext {
         max-width: 20rem;
         justify-items: start;
       }
+
+      
 
       .info-wrapper.footer {
         padding: 2rem 0rem;
@@ -721,7 +763,16 @@ h2.hero-subtext {
       .info-text {
           color: white;
           font-size: 1.2rem;
+          
       }
+
+
+      .special-text {
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 700;
+        
+    }
 
       p.info-text.contact {
         color: #492b19;
@@ -1344,7 +1395,7 @@ h2.hero-subtext {
     .edibles-content-wrapper {
         padding: 10rem 5rem;
         display: grid;
-        max-width: 45rem;
+        max-width: 55rem;
         grid-template-columns: 1fr;
       
         
@@ -1359,16 +1410,43 @@ h2.hero-subtext {
         justify-items: center;
         
     }
+
+    .specials-section {
+        background-image: url(images/specials-background.jpg);
+        background-size: cover;
+        background-position: center;
+        display: grid;
+        justify-items: center;
+        
+    }
     
     .info-wrapper {
         padding: 20rem 5rem;
         display: grid;
         grid-template-columns: 1fr;
-        max-width: 45rem;
+        max-width: 55rem;
         justify-items: start;
       
         
     }
+
+    .specials-wrapper.top {
+        padding: 5rem 5rem 0rem 5rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 55rem;
+        justify-items: start;
+    }
+
+    .specials-wrapper {
+        padding: 5rem 5rem 5rem 5rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 55rem;
+        justify-items: start;
+    }
+
+   
 
 
     .info-text {
@@ -1376,7 +1454,20 @@ h2.hero-subtext {
         font-size: 1.7rem;
     }
 
+    .special-text {
+        color: white;
+        font-size: 1.7rem;
+        font-weight: 700;
+    }
+
     .subheader-text {  
+        font-size: 3rem;    
+        color: white;
+        text-align: start;
+        padding-top: 0;
+    }  
+
+    .subheader-text.special {  
         font-size: 3rem;    
         color: white;
         text-align: start;
