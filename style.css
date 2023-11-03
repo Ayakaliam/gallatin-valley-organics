@@ -705,8 +705,19 @@ h2.hero-subtext {
         background-position: center;
         display: grid;
         justify-items: center;
-        padding-top: 3rem;
-        padding-bottom: 3rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        
+    }
+
+    .specials-section-two {
+        background-image: url(images/Raffle-Section.jpg);
+        background-size: cover;
+        background-position: center;
+        display: grid;
+        justify-items: center;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
         
     }
 
