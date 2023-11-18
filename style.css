@@ -79,6 +79,10 @@ h2 {
     color: black;
 }
 
+.round {
+    border-radius: .1rem;
+}
+
 .sub-header {
 
     color: rgb(8, 8, 8);
@@ -920,6 +924,15 @@ h2.hero-subtext {
         align-content: start;
     }
 
+    .special-nav-section {
+        background-image: url(images/specials-header.jpg);
+        background-size: cover;
+        background-position: right;
+        display: grid;
+        justify-items: center;
+        align-content: start;
+    }
+
     .home-nav-section {
         background-image: url(images/silver-tip-jar.jpg);
         background-size: cover;
@@ -1499,7 +1512,7 @@ h2.hero-subtext {
        
         justify-items: center;
         align-content: center;
-        padding: 2rem 3rem;
+        padding: 2rem;
         margin-top: 2rem;
     
     }
