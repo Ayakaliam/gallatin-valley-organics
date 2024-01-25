@@ -737,12 +737,28 @@ h2.hero-subtext {
         padding: 2rem 0rem;
         display: grid;
         grid-template-columns: 1fr;
-        max-width: 20rem;
+        
         justify-items: start;
       }
 
+      .specials-wrapper.deals {
+       max-width: 20rem;
+      }
+
       .specials-wrapper.nopadding {
+          display: grid;
+          align-content: flex-start;
           padding: 3rem 0 0 0;
+
+      }
+
+      .deals-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: flex-start;
+        width: 80%;
+        margin: auto auto;
+        
       }
     
     .info-wrapper {
@@ -1003,6 +1019,7 @@ h2.hero-subtext {
      
     }
 
+
     .menu-content-section.border {
         border-bottom: 2px #492b19 dotted;
         padding-bottom: 3rem;
@@ -1185,7 +1202,7 @@ h2.hero-subtext {
 
 
 
-@media (min-width: 1024px) {
+@media (min-width: 1400px) {
 
    
     .flower-info {
@@ -1473,7 +1490,7 @@ h2.hero-subtext {
         justify-items: start;
     }
 
-    .specials-wrapper {
+    .specials-wrapper.deals {
         padding: 5rem 5rem 5rem 5rem;
         display: grid;
         grid-template-columns: 1fr;
@@ -1482,6 +1499,14 @@ h2.hero-subtext {
     }
 
    
+    .deals-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: flex-start;
+        width: 55%;
+        margin: auto auto;
+        
+      }
 
 
     .info-text {
