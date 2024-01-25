@@ -740,6 +740,10 @@ h2.hero-subtext {
         max-width: 20rem;
         justify-items: start;
       }
+
+      .specials-wrapper.nopadding {
+          padding: 3rem 0 0 0;
+      }
     
     .info-wrapper {
         padding: 8rem 0rem;
@@ -780,6 +784,13 @@ h2.hero-subtext {
           font-size: 1.2rem;
           
       }
+
+      .info-text.dark {
+        color: #492b19;
+        font-size: 1.2rem;
+        
+    }
+
 
 
       .special-text {
