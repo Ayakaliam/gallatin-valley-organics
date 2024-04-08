@@ -887,6 +887,15 @@ h2.hero-subtext {
         justify-items: center;
     }
 
+    .organics-section {
+        background-image: url(images/organics-bg-dark.jpg);
+        background-size: cover;
+        background-position: right;
+        display: grid;
+        justify-items: center;
+    }
+
+
    
     .footer-section {
         display: grid;
@@ -960,6 +969,17 @@ h2.hero-subtext {
         align-content: start;
     }
 
+    .grow-nav-section {
+        background-image: url(images/organics-bg-dark.jpg);
+        background-size: cover;
+        background-position: right;
+        display: grid;
+        justify-items: center;
+        align-content: start;
+    }
+
+
+    
     .home-nav-section {
         background-image: url(images/silver-tip-jar.jpg);
         background-size: cover;
