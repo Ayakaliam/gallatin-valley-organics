@@ -890,7 +890,7 @@ h2.hero-subtext {
     .organics-section {
         background-image: url(images/organics-bg-dark.jpg);
         background-size: cover;
-        background-position: right;
+        background-position: center;
         display: grid;
         justify-items: center;
     }
@@ -972,7 +972,7 @@ h2.hero-subtext {
     .grow-nav-section {
         background-image: url(images/organics-bg-dark.jpg);
         background-size: cover;
-        background-position: right;
+        background-position: center;
         display: grid;
         justify-items: center;
         align-content: start;
