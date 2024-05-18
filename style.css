@@ -780,7 +780,7 @@ h2.hero-subtext {
       }
 
       .info-wrapper.order {
-        padding: 2rem 0rem;
+        padding: 2rem 1rem;
         display: grid;
         grid-template-columns: 1fr;
         max-width: 30rem;
