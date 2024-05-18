@@ -460,10 +460,11 @@ h1.verification-button-text {
 .homepage-logo {
     max-width: 6rem;
     
+}
+
+.featured-logo {
+    max-width: 20rem;
     
-   
-
-
 }
 
 
@@ -929,6 +930,12 @@ h2.hero-subtext {
     .footer-grid.contact {
         padding-top: 0;
         padding-bottom: 3rem;
+    }
+
+    .footer-grid.featured {
+        padding-top: 0;
+        padding-bottom: 3rem;
+ 
     }
 
     .footer-grid.insta {
@@ -1584,7 +1591,7 @@ h2.hero-subtext {
     .info-wrapper.footer {
         
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         max-width: 100vw; 
         padding: 4rem 2rem 2rem 2rem;
     }
