@@ -118,30 +118,18 @@ p {
 
 
 
-li {
-    color: rgb(24, 24, 24);
-    font-family: Arial, Helvetica, sans-serif, sans-serif; 
-    font-weight: 400;
-    font-size: .85rem;
-    text-transform: uppercase;
-    padding-top: 1rem;
-    text-decoration: none;
-    list-style-type: none;
-    padding: .15rem 0rem;
-    
-    
-}
-
-li.bold {
-
-    color: rgb(17, 17, 17);
-    text-align: left;
-    font-size: 1rem;
+li.bullets {
+    color: #492b19;
     font-family: "azo-sans-web", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: none;
+    padding: .5rem 0;
 }
+
+li::marker {
+    color:  #492b19;
+  }
 
 
 
@@ -910,7 +898,7 @@ h2.hero-subtext {
     }
 
     .puffco-section {
-        background-image: url(images/ProxyBloomTravePack.jpg);
+        background-image: url(images/puffco-products.png);
         background-size: cover;
         background-position: center;
         display: grid;
@@ -1179,6 +1167,10 @@ h2.hero-subtext {
 
     }
 
+    ul {
+        list-style-type: circle;
+        padding-left: 2rem;
+    }
 
     ul.list {
         display: flex;
@@ -1760,7 +1752,6 @@ h2.hero-subtext {
 
 
  
-
 
 
 
