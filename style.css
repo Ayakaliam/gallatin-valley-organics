@@ -591,6 +591,112 @@ h2.hero-subtext {
 
     }
 
+/*End Flickity CSS*/
+
+.review-carousel {
+    
+  
+    background-color: #fff6da;
+    
+}
+
+
+/* flickity on by default */
+.review-carousel:after {
+    content: 'flickity';
+    display: none;
+}
+
+
+
+.review-one-cell {
+   
+   
+    height: 100%;
+    width: 100%;
+    max-width: 70%;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    padding: 15rem 0rem;
+    margin-right: 4rem;
+    
+    /*display: grid;
+    
+    padding: 10rem 0;
+    background-position: center top;
+    background-size: cover;
+    justify-items: center;
+    align-content: center;
+    min-height: 50vh;
+    min-width: 50vw;*/
+    
+}
+
+.review-two-cell {
+   
+    height: 100%;
+    width: 100%;
+    max-width: 70%;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    padding: 15rem 0rem;
+    margin-right: 4rem;
+
+    /*display: grid;
+    background-image: url(images/carousel-two.jpg);
+    padding: 10rem 0;
+    background-position: center top;
+    background-size: cover;
+    justify-items: center;
+    align-content: center;
+    min-height: 50vh;*/
+}
+
+.review-three-cell {
+    
+    height: 100%;
+    width: 100%;
+    max-width: 70%;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    padding: 15rem 0rem;
+    margin-right: 4rem;
+
+    /*display: grid;
+    background-image: url(images/carousel-three.jpg);
+    padding: 10rem 0;
+    background-position: center top;
+    background-size: cover;
+    justify-items: center;
+    align-content: center;
+    min-height: 50vh;*/
+}
+
+    .review-type {
+        font-size: 1.5rem;
+        color: #492b19;
+        text-align: left;
+
+    }
+
+
+    .review-text {
+        color: #492b19;
+        padding: 0 0;
+        font-size: 1.1rem;
+        text-align: left;
+        padding-bottom: 1rem;
+       
+      
+        
+
+    }
+
+/*End Flickity CSS*/
+
 
     .edibles-section {
         background-image: url(images/Edibles-image-two.jpg);
@@ -925,7 +1031,19 @@ h2.hero-subtext {
         justify-items: center;
         align-content: start;
         padding-bottom: 3rem;
+        padding-top: 2rem;
         
+    }
+
+    .footer-section.review {
+        padding-bottom: 0rem;
+        padding-top: 0rem;
+
+    }
+
+    .info-wrapper.footer.review {
+        padding-bottom: 0rem;
+
     }
        
     .footer-grid {
@@ -1485,6 +1603,73 @@ h2.hero-subtext {
     }
 
 
+    .review-one-cell {
+   
+   
+        height: 100%;
+        width: 50%;
+        max-width: 70%;
+        display: grid;
+        align-content: center;
+        justify-items: center;
+        padding: 15rem 0rem;
+        margin-right: 10rem;
+        
+        /*display: grid;
+        
+        padding: 10rem 0;
+        background-position: center top;
+        background-size: cover;
+        justify-items: center;
+        align-content: center;
+        min-height: 50vh;
+        min-width: 50vw;*/
+        
+    }
+    
+    .review-two-cell {
+       
+        height: 100%;
+        width: 50%;
+        max-width: 70%;
+        display: grid;
+        align-content: center;
+        justify-items: center;
+        padding: 15rem 0rem;
+        margin-right: 10rem;
+    
+        /*display: grid;
+        background-image: url(images/carousel-two.jpg);
+        padding: 10rem 0;
+        background-position: center top;
+        background-size: cover;
+        justify-items: center;
+        align-content: center;
+        min-height: 50vh;*/
+    }
+    
+    .review-three-cell {
+        
+        height: 100%;
+        width: 50%;
+        max-width: 70%;
+        display: grid;
+        align-content: center;
+        justify-items: center;
+        padding: 15rem 0rem;
+        margin-right: 10rem;
+    
+        /*display: grid;
+        background-image: url(images/carousel-three.jpg);
+        padding: 10rem 0;
+        background-position: center top;
+        background-size: cover;
+        justify-items: center;
+        align-content: center;
+        min-height: 50vh;*/
+    }
+
+
     .edibles-section {
         background-image: url(images/Edibles-image-two.jpg);
         background-size: cover;
@@ -1619,6 +1804,15 @@ h2.hero-subtext {
         padding: 4rem 2rem 2rem 2rem;
     }
 
+    .info-wrapper.footer.review {
+        grid-template-areas:
+        "a b c d e" ;
+    }
+
+    .header-text.contact.review {
+        grid-area: c;
+
+    }
 
     .footer-grid {
         display: grid;
