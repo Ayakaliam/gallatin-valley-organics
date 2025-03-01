@@ -50,6 +50,12 @@ h1 {
    
 }
 
+h1.news-header {
+        color: #492b19;
+
+
+}
+
 h2 {
     color: rgb(255, 255, 255);
     text-align: left;
@@ -116,7 +122,13 @@ p {
     animation-fill-mode: forwards;
 }
 
+.news-info {
+    color: #492b19;
+    padding: .5rem 1rem;
+    text-align: center;
 
+
+}
 
 li.bullets {
     color: #492b19;
@@ -689,10 +701,17 @@ h2.hero-subtext {
         font-size: 1.1rem;
         text-align: left;
         padding-bottom: 1rem;
-       
-      
-        
+    
+    }
 
+
+    .review-text.news {
+        color: #492b19;
+        padding: 0 0;
+        font-size: 1.1rem;
+        text-align: center;
+        padding-bottom: 1rem 1rem;
+    
     }
 
 /*End Flickity CSS*/
@@ -877,6 +896,14 @@ h2.hero-subtext {
         justify-items: start;
       }
 
+      .info-wrapper.news {
+        padding: 2rem 0rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 20rem;
+        justify-items: start;
+      }
+
       
 
       .info-wrapper.footer {
@@ -1051,6 +1078,18 @@ h2.hero-subtext {
         padding-bottom: 0rem;
         padding-top: 0rem;
 
+    }
+
+    .news-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: #FFF7E2;
+        color: #492b19;
+        justify-items: center;
+        align-content: start;
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+        
     }
 
     .info-wrapper.footer.review {
@@ -1612,6 +1651,19 @@ h2.hero-subtext {
         align-content: center;
         justify-items: center;
 
+    }
+
+
+
+    .news-section {
+        
+        background-color: #FFF7E2;
+        color: #492b19;
+        justify-items: center;
+        align-content: start;
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+        
     }
 
 
