@@ -71,6 +71,9 @@ h2 {
     margin-top: .5rem;
 }
 
+b {
+    font-weight: 700;
+}
 .sativa {
     background-color: #dea4b7;
 }
@@ -827,6 +830,17 @@ h2.hero-subtext {
         background-position: center;
         display: grid;
         justify-items: center;
+        
+    }
+
+    .moving-section {
+        background-image: url(images/newlocation.jpg);
+        background-size: cover;
+        background-position: center;
+        display: grid;
+        justify-items: center;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
         
     }
 
@@ -1762,6 +1776,8 @@ h2.hero-subtext {
         
     }
 
+   
+
     .specials-section {
         background-image: url(images/20specialproof20.jpg);
         background-size: cover;
@@ -1770,6 +1786,7 @@ h2.hero-subtext {
         justify-items: center;
         
     }
+    
     
     .info-wrapper {
         padding: 20rem 5rem;
