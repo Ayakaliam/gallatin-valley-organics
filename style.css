@@ -1022,7 +1022,7 @@ h2.hero-subtext {
     }
 
 
-    .action-button.dark {
+    /*.action-button.dark {
         border: 2px solid#492b19;
         background-color: transparent;
         margin: 1.5rem 0rem;
@@ -1040,9 +1040,26 @@ h2.hero-subtext {
         font-weight: 900;
         font-style: normal;
     
-    }
+    } */
 
-   
+    .action-button.dark {
+        border: 2px solid #492b19;
+        background-color: transparent;
+        display: grid;
+        height: 4rem;
+        width: 15rem;
+        justify-items: center;
+        align-content: center;
+    
+        margin-top: 2rem;
+        color: #492b19;
+        text-align: left;
+        font-size: 2.2rem;
+        font-family: "azo-sans-web", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+    
+    }
 
     .action-button:hover {
         background-color: white;
@@ -2006,24 +2023,21 @@ h2.hero-subtext {
 
 
 .action-button.dark {
-   
-    border: 2px solid#492b19;
+    border: 2px solid #492b19;
     background-color: transparent;
-    
-    
+    display: grid;
     height: 4rem;
-    width: 25rem;
+    width: 15rem;
     justify-items: center;
     align-content: center;
 
     margin-top: 2rem;
     color: #492b19;
     text-align: left;
-    font-size: 1.25rem;
+    font-size: 2.2rem;
     font-family: "azo-sans-web", sans-serif;
     font-weight: 900;
     font-style: normal;
-    
 
 }
 
