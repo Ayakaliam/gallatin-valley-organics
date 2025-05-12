@@ -785,6 +785,13 @@ h2.hero-subtext {
         display: grid;
     }
 
+    h1.header-text.dark {
+        color: #492b19;
+        font-size: 2rem;
+        text-transform: uppercase;
+        display: grid;
+    }
+
     h1.header-text.contact {
         color:#492b19;
         font-size: 2rem;
@@ -825,7 +832,7 @@ h2.hero-subtext {
     }
 
     .pick-up-section {
-        background-image: url(images/gallatin-organic-lounge-dark.jpg);
+        background-image: url(images/new-gallatin-organic-lounge-dark.jpg);
         background-size: cover;
         background-position: center;
         display: grid;
@@ -845,7 +852,7 @@ h2.hero-subtext {
     }
 
     .specials-section {
-        background-image: url(images/20specialproof20.jpg);
+        background-image: url(images/shatter.jpg);
         background-size: cover;
         background-position: center;
         display: grid;
@@ -1768,7 +1775,7 @@ h2.hero-subtext {
 
 
     .pick-up-section {
-        background-image: url(images/gallatin-organic-lounge-dark.jpg);
+        background-image: url(images/new-gallatin-organic-lounge-dark.jpg);
         background-size: cover;
         background-position: center;
         display: grid;
@@ -1779,7 +1786,7 @@ h2.hero-subtext {
    
 
     .specials-section {
-        background-image: url(images/20specialproof20.jpg);
+        background-image: url(images/shatter.jpg);
         background-size: cover;
         background-position: center;
         display: grid;
@@ -1863,6 +1870,12 @@ h2.hero-subtext {
         font-size: 5rem;
     }
 
+    h1.header-text.dark {
+        color: #492b19;
+        font-size: 5rem;
+        text-transform: uppercase;
+        display: grid;
+    }
 
     .action-button {
         border: 3px solid white;
