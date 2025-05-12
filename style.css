@@ -1061,12 +1061,37 @@ h2.hero-subtext {
     
     }
 
+    .action-button.dark.menu {
+        border: 2px solid #492b19;
+        background-color: transparent;
+        display: grid;
+        height: 4rem;
+        width: 15rem;
+        justify-items: center;
+        align-content: center;
+    
+        margin-top: 2rem;
+        color: #492b19;
+        text-align: left;
+        font-size: 1rem;
+        font-family: "azo-sans-web", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+    
+    }
+
     .action-button:hover {
         background-color: white;
         color: #492b19;
     }
 
     .action-button.dark:hover {
+        background-color: #492b19;
+        color: #FFF7E2;
+
+    }
+
+    .action-button.dark.menu:hover {
         background-color: #492b19;
         color: #FFF7E2;
 
@@ -2035,6 +2060,25 @@ h2.hero-subtext {
     color: #492b19;
     text-align: left;
     font-size: 2.2rem;
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+.action-button.dark.menu {
+    border: 2px solid #492b19;
+    background-color: transparent;
+    display: grid;
+    height: 4rem;
+    width: 15rem;
+    justify-items: center;
+    align-content: center;
+
+    margin-top: 2rem;
+    color: #492b19;
+    text-align: left;
+    font-size: .95rem;
     font-family: "azo-sans-web", sans-serif;
     font-weight: 900;
     font-style: normal;
