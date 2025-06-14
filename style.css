@@ -1124,6 +1124,13 @@ h2.hero-subtext {
         justify-items: center;
     }
 
+    .groove-section {
+        background-image: url(images/groove-products-update.jpg);
+        background-size: cover;
+        background-position: center;
+        display: grid;
+        justify-items: center;
+    }
 
    
     .footer-section {
