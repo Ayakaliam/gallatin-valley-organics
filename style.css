@@ -74,6 +74,11 @@ h2 {
 b {
     font-weight: 700;
 }
+
+.info-text.dark.bold {
+    font-weight: 700;
+}
+
 .sativa {
     background-color: #dea4b7;
 }
