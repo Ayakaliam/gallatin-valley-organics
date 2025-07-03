@@ -79,6 +79,10 @@ b {
     font-weight: 700;
 }
 
+.info-text.italic.dark {
+    font-size: 1rem;
+}
+
 .sativa {
     background-color: #dea4b7;
 }
