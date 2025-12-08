@@ -953,6 +953,8 @@ h2.hero-subtext {
         padding: 2rem 0 2rem 0;
         text-align: center;
        justify-content: center;
+       grid-area: c;
+       
     }
 
     .header-text.contact.menu {
