@@ -953,7 +953,7 @@ h2.hero-subtext {
         padding: 2rem 0 2rem 0;
         text-align: center;
        justify-content: center;
-       grid-area: c;
+      
        
     }
 
@@ -2144,6 +2144,13 @@ h2.hero-subtext {
        
     }
 
+    .header-text.contact.deals {
+        padding: 2rem 0 2rem 0;
+        text-align: center;
+       justify-content: center;
+       grid-area: c;
+       
+    }
     .info-wrapper.order {
         padding: 2rem 0rem;
         display: grid;
