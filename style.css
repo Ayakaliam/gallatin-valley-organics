@@ -728,6 +728,136 @@ h2.hero-subtext {
 
 /*End Flickity CSS*/
 
+/* flickity on by default */
+
+.deals-carousel {
+    
+    
+    background-color: #fff6da;
+    
+}
+.deals-carousel:after {
+    content: 'flickity';
+    display: none;
+}
+
+
+
+.review-one-cell.deals {
+   
+   
+    height: 200px;
+    width: 50%;
+    max-width: 70%;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    padding: 0 0;
+    margin-right: 4rem;
+    
+    /*display: grid;
+    
+    padding: 10rem 0;
+    background-position: center top;
+    background-size: cover;
+    justify-items: center;
+    align-content: center;
+    min-height: 50vh;
+    min-width: 50vw;*/
+    
+}
+
+.review-two-cell.deals {
+   
+    height: 50%;
+    width: 50%;
+    max-width: 70%;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+   
+    margin-right: 4rem;
+
+    /*display: grid;
+    background-image: url(images/carousel-two.jpg);
+    padding: 10rem 0;
+    background-position: center top;
+    background-size: cover;
+    justify-items: center;
+    align-content: center;
+    min-height: 50vh;*/
+}
+
+.review-three-cell.deals {
+    
+    height: 50%;
+    width: 50%;
+    max-width: 70%;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+   
+    margin-right: 4rem;
+
+    /*display: grid;
+    background-image: url(images/carousel-three.jpg);
+    padding: 10rem 0;
+    background-position: center top;
+    background-size: cover;
+    justify-items: center;
+    align-content: center;
+    min-height: 50vh;*/
+}
+
+.review-type.deals {
+    font-size: 1.5rem;
+    color: #492b19;
+    text-align: center;
+
+}
+
+
+.review-text.deals {
+    color: #492b19;
+    padding: 0 0;
+    font-size: 1.1rem;
+    text-align: center;
+    padding-bottom: 1rem;
+
+}
+
+    .review-type {
+        font-size: 1.5rem;
+        color: #492b19;
+        text-align: center;
+        padding-bottom: 1rem;
+
+    }
+
+
+
+
+      .review-text {
+        color: #492b19;
+        padding: 0 0;
+        font-size: 1.1rem;
+        text-align: left;
+        padding-bottom: 1rem;
+    
+    }
+
+
+    .review-text.news {
+        color: #492b19;
+        padding: 0 0;
+        font-size: 1.1rem;
+        text-align: center;
+        padding-bottom: 1rem 1rem;
+    
+    }
+
+/*End Flickity CSS*/
+
 
     .edibles-section {
         background-image: url(images/Edibles-image-two.jpg);
@@ -817,6 +947,12 @@ h2.hero-subtext {
     .header-text.contact {
         padding: 2rem 0 2rem 0;
        
+    }
+
+    .header-text.contact.deals {
+        padding: 2rem 0 2rem 0;
+        text-align: center;
+       justify-content: center;
     }
 
     .header-text.contact.menu {
@@ -1174,6 +1310,15 @@ h2.hero-subtext {
 
     .info-wrapper.footer.review {
         padding-bottom: 0rem;
+
+    }
+
+    .info-wrapper.footer.review.deals {
+      padding: 0 0;
+        justify-content: center;
+        max-width: 100%;
+        justify-items: center;
+        background-color: #FFF7E2;
 
     }
        
