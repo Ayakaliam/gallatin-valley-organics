@@ -750,7 +750,7 @@ h2.hero-subtext {
     width: 50%;
     max-width: 70%;
     display: grid;
-    align-content: center;
+    align-content: start;
     justify-items: center;
     padding: 0 0;
     margin-right: 4rem;
