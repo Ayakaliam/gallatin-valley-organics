@@ -957,6 +957,15 @@ h2.hero-subtext {
        
     }
 
+    .header-text.contact.deals.footer {
+        font-size: .75rem;
+        padding: 2rem 0 2rem 0;
+        text-align: center;
+       justify-content: center;
+      
+       
+    }
+
     .header-text.contact.menu {
         padding: 2rem 0 2rem 0;
        
@@ -2151,6 +2160,16 @@ h2.hero-subtext {
        grid-area: c;
        
     }
+
+    .header-text.contact.deals.footer {
+        font-size: .75rem;
+        padding: 2rem 0 2rem 0;
+        text-align: center;
+       justify-content: center;
+       grid-area: c;
+       
+    }
+
     .info-wrapper.order {
         padding: 2rem 0rem;
         display: grid;
