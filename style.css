@@ -1008,7 +1008,7 @@ h2.hero-subtext {
     }
 
     .specials-section {
-        background-image: url(images/shatter.jpg);
+        background-image: url(images/20specialproof20.jpg);
         background-size: cover;
         background-position: center;
         display: grid;
@@ -1115,6 +1115,12 @@ h2.hero-subtext {
 
       .info-text.italic {
         font-size: 1rem;
+        font-style: italic;
+      }
+
+
+      .info-text.italic.large {
+        font-size: 1.2rem;
         font-style: italic;
       }
 
@@ -1228,6 +1234,25 @@ h2.hero-subtext {
         align-content: center;
     
         margin-top: 2rem;
+        color: #492b19;
+        text-align: left;
+        font-size: 1rem;
+        font-family: "azo-sans-web", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+    
+    }
+
+    .action-button.dark.menu.sale {
+        border: 2px solid #492b19;
+        background-color: transparent;
+        display: grid;
+        height: 4rem;
+        width: 15rem;
+        justify-items: center;
+        align-content: center;
+    
+        margin-top: 0rem;
         color: #492b19;
         text-align: left;
         font-size: 1rem;
@@ -2001,7 +2026,7 @@ h2.hero-subtext {
    
 
     .specials-section {
-        background-image: url(images/shatter.jpg);
+        background-image: url(images/20specialproof20.jpg);
         background-size: cover;
         background-position: center;
         display: grid;
