@@ -1018,6 +1018,17 @@ h2.hero-subtext {
         
     }
 
+       .carts-section {
+        background-image: url(images/dark-shatter.jpg);
+        background-size: cover;
+        background-position: center;
+        display: grid;
+        justify-items: center;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        
+    }
+
     .specials-section-two {
         background-image: url(images/groove.jpg);
         background-size: cover;
